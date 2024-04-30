@@ -51,7 +51,7 @@ const LogoCarousel = () => {
 <>
 <div className='mainContainer' id='home'>
 <h2 className="testimonial-header">Clients Logo</h2>
-</div>
+
 <Slider {...settings}>
       <div>
        <img src={logo1}/>
@@ -77,6 +77,7 @@ const LogoCarousel = () => {
       </div>
  
     </Slider>
+    </div>
 
 </>
 

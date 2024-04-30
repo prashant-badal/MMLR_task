@@ -8,7 +8,7 @@ import GetInTouch from '../component/GetInTouch';
 import Footer from '../component/Footer';
 import Navbar from '../component/NavBar';
 import AppLayout from '../AppLayout';
-
+import "./Home.css"
 
 
 
@@ -19,14 +19,14 @@ const Home = () => {
     <>
 <AppLayout >
 
-
+<div className="allComponents">
 
     <LogoCarousel/>
 <TestimonialCarousel/>
 <FeaturedCase/>
 <FeedbackForm/>
 <GetInTouch/> 
-
+</div>
 </AppLayout>
 </>
   )}
