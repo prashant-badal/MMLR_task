@@ -1,0 +1,68 @@
+/* GetInTouch.css */
+
+.get-in-touch-container {
+    background: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+    padding: 50px 0;
+  }
+  
+  .get-in-touch {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .section-header {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 80%;
+  }
+  
+  .contact-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 600px) {
+    .get-in-touch {
+      padding: 20px;
+    }
+    .section-header {
+      font-size: 2.5rem;
+    }
+    .section-description {
+      font-size: 1rem;
+    }
+    .contact-button {
+      padding: 12px 30px;
+      font-size: 1rem;
+    }
+  }
+  
